@@ -24,7 +24,7 @@ public class AddressBook
 	              	CreateAdressBook();
 	                break;
 	        case 2:
-	        		OpenAddressBook();
+	        	OpenAddressBook();
 	                break;
 	        
 	        case 3:
@@ -43,7 +43,7 @@ public class AddressBook
 	}
 	public static void CreateAdressBook() throws IOException
     {
-		int no;
+	int no;
         String fileName;
         String First_Name = null,Last_Name = null;
         String Address = null,City = null,State = null;
@@ -59,7 +59,7 @@ public class AddressBook
         no=sc.nextInt();
         for(int i=0;i<no;i++)
         {
-        	System.out.println("Enter First Name:");
+            System.out.println("Enter First Name:");
             First_Name=sc.nextLine();
             System.out.println("Enter Last Name:");
             Last_Name=sc.nextLine();
